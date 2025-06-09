@@ -32,4 +32,4 @@ def iris_prediction(): # <-- this is view function
     return jsonify({"predcited_flower_type": flower_type[0]})  
 
 if __name__ == "__main__":
-    app.run() #Run the app in debug mode 
+    app.run(port=5000) #Run the app in debug mode 
